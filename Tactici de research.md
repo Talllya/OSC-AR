@@ -15,7 +15,7 @@ Aplicatia isi propune sa analizeze si sa afiseze tendintele legate de nominaliza
  
   - Baze de date si surse online :
       - IMDB si TMDB API : pentru colectarea nominalizarilor si premiilor
-      - Kaggle datasets :  "The Oscars: Analysis and Predictions" [Dataset] (https://www.kaggle.com/datasets/matevaradi/oscar-prediction-dataset)
+      - Kaggle datasets :  "The Oscars: Analysis and Predictions" [Link to Dataset](https://www.kaggle.com/datasets/matevaradi/oscar-prediction-dataset)
       - Academy Awards Archive : Date oficiale despre nominalizari si castigatori
 
   - Studii statistice si predictive
