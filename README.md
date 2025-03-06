@@ -12,3 +12,7 @@ Ilisei Daria-Ștefania
 
 
 Popa Ioana-Alexia
+
+Lab2:
+
+
