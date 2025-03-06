@@ -7,9 +7,9 @@ Aplicatia isi propune sa analizeze si sa afiseze tendintele legate de nominaliza
 
 - Carti si studii academice:
 
-  - Emanuel Levy "All About Oscar: The History and Politics of the Academy Awards" [Book] (https://archive.org/details/allaboutoscarhis0000levy) - analizeaza criteriile de selectie si tendintele premiilor Oscar
+  - Emanuel Levy "All About Oscar: The History and Politics of the Academy Awards" [Link to Book](https://archive.org/details/allaboutoscarhis0000levy) - analizeaza criteriile de selectie si tendintele premiilor Oscar
     
-  - Peter Krämer "The New Hollywood: From Bonnie and Clyde to Star Wars" [Book](https://archive.org/details/newhollywoodfrom0000kram) - influenta industriei in nominalizari si castiguri
+  - Peter Krämer "The New Hollywood: From Bonnie and Clyde to Star Wars" [Link to Book](https://archive.org/details/newhollywoodfrom0000kram) - influenta industriei in nominalizari si castiguri
     
   - Cele doua studii ofera o perspectiva detaliata asupra modului in care tendintele istorice, influentele studiourilor de film si schimbarile din industrie afecteaza nominalizarile si castigatorii Oscar.
  
@@ -19,7 +19,7 @@ Aplicatia isi propune sa analizeze si sa afiseze tendintele legate de nominaliza
       - Academy Awards Archive : Date oficiale despre nominalizari si castigatori
 
   - Studii statistice si predictive
-      - Analize de la FiveThirtyEight [Website] (https://projects.fivethirtyeight.com/) sau The Ringer [Website] (https://www.theringer.com/topic/oscars) despre impactul trendurilor sociale si politice
+      - Analize de la FiveThirtyEight [Link to Website](https://projects.fivethirtyeight.com/) sau The Ringer [Link to Website](https://www.theringer.com/topic/oscars) despre impactul trendurilor sociale si politice
       - Vizeaza impactul factorilor sociali si culturali asupra alegerilor Academiei, oferind informatii despre influenta diversitatii si a reprezentarii in procesul de selectie.
         
   - Impactul cultural si politic
