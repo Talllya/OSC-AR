@@ -13,12 +13,12 @@ Aplicatia isi propune sa analizeze si sa afiseze tendintele legate de nominaliza
     
   - Cele doua studii ofera o perspectiva detaliata asupra modului in care tendintele istorice, influentele studiourilor de film si schimbarile din industrie afecteaza nominalizarile si castigatorii Oscar.
  
-  - Baze de date si surse online :
+- Baze de date si surse online :
       - IMDB si TMDB API : pentru colectarea nominalizarilor si premiilor
       - Kaggle datasets :  "The Oscars: Analysis and Predictions" [Link to Dataset](https://www.kaggle.com/datasets/matevaradi/oscar-prediction-dataset)
       - Academy Awards Archive : Date oficiale despre nominalizari si castigatori
 
-  - Studii statistice si predictive
+- Studii statistice si predictive
       - Analize de la FiveThirtyEight [Link to Website](https://projects.fivethirtyeight.com/) sau The Ringer [Link to Website](https://www.theringer.com/topic/oscars) despre impactul trendurilor sociale si politice
       - Vizeaza impactul factorilor sociali si culturali asupra alegerilor Academiei, oferind informatii despre influenta diversitatii si a reprezentarii in procesul de selectie.
         
