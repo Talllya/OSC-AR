@@ -5,9 +5,9 @@ Mobile Phone App
 
 MR Headset App
 
-Team: CineMinds
+Team name: CineMinds
 
-HCI Team Members:
+Team Members:
 
 Bejenaru Ioan-Matei
 
