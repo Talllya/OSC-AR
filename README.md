@@ -1,28 +1,28 @@
 # OSC-AR
 Project Description: You are a movie critic chosen to watch and review Oscar nominees and serve on the jury committee. You use a dedicated mobile app to view details, add scores and reviews, and interact with other jury members. Moreover, during the movies, you access a pair of special glasses that offer real-time details, interactions, and features regarding the picture.
 
-Mobile Phone App
+## Team name: CineMinds
 
-MR Headset App
+## Team Members:
 
-Team name: CineMinds
+- Bejenaru Ioan-Matei
 
-Team Members:
+- Grozea Tatiana
 
-Bejenaru Ioan-Matei
+- Ilisei Daria-Ștefania
 
-Grozea Tatiana
+- Popa Ioana-Alexia
 
-Ilisei Daria-Ștefania
+## Progress:
 
-Popa Ioana-Alexia
-
-Lab2:
+### Lab 2
 
 User research techniques and tactics:
 
 Competitive Analysis: https://miro.com/welcomeonboard/ZGkvNFpacy9iUGQwSi9RVG9yV1NjT3hnREdLSmlBejM1cnI3RUgvVGdoTmhRTlJzeFJzbWJndGZTbDk4ZlRocEZuRGxkeDNRR2VqbnozVTRaRVlONGJkMFRHTndsWEQ3YUNwMVorVlhZQWU3dURBOTVRVmNCQVFpSG43a3FsdXhyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=102333116535
 
-Literature review: 
+Literature review:
+[Link catre Literature Review](https://github.com/Talllya/OSC-AR/blob/main/Tactici%20de%20research.md)
+
 
 Persona: 
