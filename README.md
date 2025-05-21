@@ -13,9 +13,7 @@ Project Description: You are a movie critic chosen to watch and review Oscar nom
 
 - Popa Ioana-Alexia
 
-## Progress:
-
-### Lab 2 : User research techniques and tactics
+## Features:
 
 - Competitive Analysis: https://miro.com/welcomeonboard/ZGkvNFpacy9iUGQwSi9RVG9yV1NjT3hnREdLSmlBejM1cnI3RUgvVGdoTmhRTlJzeFJzbWJndGZTbDk4ZlRocEZuRGxkeDNRR2VqbnozVTRaRVlONGJkMFRHTndsWEQ3YUNwMVorVlhZQWU3dURBOTVRVmNCQVFpSG43a3FsdXhyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=102333116535
 
