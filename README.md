@@ -33,4 +33,9 @@ Project Description: You are a movie critic chosen to watch and review Oscar nom
   https://drive.google.com/file/d/1brfz6Z0xxfdPm-64bBRlScF767VxDEZk/view?usp=sharing
 
 - Link video Mobile:
+  https://drive.google.com/file/d/1Uncd5ATpWGXHoSuCtRiglp_TvD_3iQda/view?usp=sharing
+
+  https://drive.google.com/file/d/1y9XTzQqcZ9vXsmEjQidsMBo4Nr2Ofwwi/view?usp=sharing
+
+- Documentation
   
