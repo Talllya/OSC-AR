@@ -25,3 +25,9 @@ Project Description: You are a movie critic chosen to watch and review Oscar nom
 [Link catre Proiectul in Figma](https://www.figma.com/design/8OOP8OWxVJ0034RvczVLij/Untitled?node-id=0-1&p=f&t=s5Hk9VZetOPZXtT3-0)
 
   - Folosit ca inspiratie: [Figma User Persona Template](https://www.figma.com/design/ZyPevz8rmBSVnOdhma639G/User-Persona-Template-(Community)?node-id=712-755&t=3zChS30EKVLFAYg9-0)
+ 
+- Project Figma:
+  https://www.figma.com/design/GaCVV2e2B0AY2L0ofey82h/OSC-AR?node-id=0-1&t=n4cf6LAcTqbPapYS-1
+
+- Link video VR:
+  https://drive.google.com/file/d/1brfz6Z0xxfdPm-64bBRlScF767VxDEZk/view?usp=sharing
