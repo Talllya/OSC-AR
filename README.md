@@ -29,5 +29,8 @@ Project Description: You are a movie critic chosen to watch and review Oscar nom
 - Project Figma:
   https://www.figma.com/design/GaCVV2e2B0AY2L0ofey82h/OSC-AR?node-id=0-1&t=n4cf6LAcTqbPapYS-1
 
-- Link video VR:
+- Link video MR/VR:
   https://drive.google.com/file/d/1brfz6Z0xxfdPm-64bBRlScF767VxDEZk/view?usp=sharing
+
+- Link video Mobile:
+  
