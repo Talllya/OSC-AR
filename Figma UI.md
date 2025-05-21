@@ -4,6 +4,8 @@ Link catre proiect: [Figma OSC-AR](https://www.figma.com/design/GaCVV2e2B0AY2L0o
 
 Link catre prototype: [OSC-AR Prototype](https://www.figma.com/design/J2lL6myYx050RHQjHi3TFr/OSC-AR-Prototype?node-id=0-1&p=f&t=VKALzxp7kJadvS2g-0)
 
+Link catre clipul cu prototipul aplicatiei: [Google Drive](https://drive.google.com/drive/folders/1vXBpDXbs22ZDzCci91h_rA8dLQ2m4B_A?usp=sharing)
+
 ### Resurse
 
 - [5 Free Layouts](https://www.figma.com/community/file/1088214486851920642)
