@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>OSC-AR - Scholarly HTML Report</title>
+    <link rel="stylesheet" href="https://w3c.github.io/scholarly-html/css/scholarly.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 70%; /* în loc de 900px */
+            max-width: 700px; /* opțional: să nu depășească o lățime maximă */
+            height: auto;
+        }
+    </style>
+
+    <script src="https://w3c.github.io/scholarly-html/js/scholarly.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>OSC-AR</h1>
+        <p><strong>Data:</strong> 21.05.2025</p>
+    </header>
+
+    <section id="introducere" role="doc-introduction">
+        <h2>Introducere</h2>
+
+        <section id="autori">
+            <h3>Autori</h3>
+            <p>
+                Acest proiect a fost realizat de:
+                <span typeof="schema:Person">
+                    <meta property="schema:givenName" content="Bejenar">
+                    <meta property="schema:familyName" content="Nume1">
+                    <span property="schema:name">Bejenaru Ioan-Matei</span>
+                </span>,
+                <span typeof="schema:Person">
+                    <meta property="schema:givenName" content="Prenume2">
+                    <meta property="schema:familyName" content="Nume2">
+                    <span property="schema:name">Grozea Tatiana</span>
+                </span>,
+		<span typeof="schema:Person">
+                    <meta property="schema:givenName" content="Prenume3">
+                    <meta property="schema:familyName" content="Nume3">
+                    <span property="schema:name">Ilisei Daria-Stefania</span>
+                </span>,
+		<span typeof="schema:Person">
+                    <meta property="schema:givenName" content="Prenum4">
+                    <meta property="schema:familyName" content="Nume4">
+                    <span property="schema:name">Popa Ioana-Alexia </span>
+                </span>
+            </p>
+        </section>
+
+        <section id="scop">
+            <h3>Scopul aplicației</h3>
+            <p>
+                OSC-AR este o aplicație mobilă și VR dedicată criticilor de film care fac parte dintr-un juriu Oscar. Aceștia pot evalua, comenta și viziona filme nominalizate într-un mod colaborativ și interactiv, folosind atât dispozitive mobile, cât și headset-uri VR.
+            </p>
+        </section>
+    </section>
+
+      <section id="patternuri">
+         <h2>Patternuri de interacțiune</h2>
+
+  <p>În dezvoltarea interfeței OSC-AR, am aplicat principii de interacțiune centrate pe utilizator, asigurând o navigare intuitivă, claritate vizuală și coerență între platforme (mobil și VR). Mai jos sunt prezentate principalele patternuri de interacțiune identificate în aplicație:</p>
+
+  <h3>2.1 Navigare prin bara de taburi (tab bar)</h3>
+  <p>În partea de jos a fiecărui ecran mobil se regăsește o bară de taburi fixă, cu 5 pictograme intuitive care oferă acces rapid la cele mai importante secțiuni ale aplicației: setări, căutare, homepage, activitate și profilul utilizatorului. Această abordare reduce efortul cognitiv și facilitează orientarea în aplicație.</p>
+  <img src="sketch_1.jpg" alt="Sketch: Navigare prin tab bar">
+
+  <h3>2.2 Carduri interactive</h3>
+  <p>Informațiile despre filme, utilizator. Acestea pot fi apăsate pentru a deschide detalii suplimentare și sunt structurate ierarhic pentru a atrage atenția pe cele mai relevante date ( afiș film, scor, critic).</p>
+  <img src="sketch_2.jpg" alt="Sketch: Carduri interactive pentru filme și știri">
+
+  <h3>2.3 Filtrare avansată în pagina de căutare</h3>
+  <p>Pagina de căutare permite utilizatorului să filtreze filmele după mai multe criterii: titlu, gen și personaje. Această interacțiune combină căutarea clasică cu un sistem de browsing categorial, pentru flexibilitate și eficiență.</p>
+
+  <h3>2.4 Feedback vizual clar</h3>
+  <p>Aplicația oferă feedback constant prin ratinguri, filtre evidențiate, precum și badge-uri pe profiluri. Acest feedback ajută utilizatorul să înțeleagă instant starea fiecărui element din aplicație.</p>
+
+  <h3>2.5 Control în VR prin gesturi</h3>
+  <p>În modul VR, utilizatorul poate interacționa cu aplicația prin gesturi (selectarea unui meniu, scroll între informații), iar ecranul este înconjurat de un <i>HUD</i> (Heads-Up Display) cu detalii contextuale: recenzii sincronizate cu timestamp, subtitrări, trivia sau recunoaștere facială a actorilor. Interfața este gândită să nu blocheze filmul, ci să-l îmbogățească.</p>
+  <img src="sketchVR_3.jpg" alt="Sketch: HUD și control prin gesturi în VR">
+</section>
+
+    <section id="decizii-design">
+  <h2>3. Decizii de design</h2>
+
+  <p>
+    Designul aplicației OSC-AR a fost inspirat de estetica Premiilor Oscar, îmbinând eleganța cinematografică cu accesibilitatea funcțională. Alegerea culorilor, a modurilor vizuale și a iconografiei a fost făcută pentru a crea o experiență coerentă atât în aplicația mobilă, cât și în interfața Mixed Reality.
+  </p>
+
+  <h3>3.1 Culori</h3>
+  <p>
+    Paleta cromatică a fost aleasă pentru a reflecta universul vizual Oscar:
+  </p>
+  <ul>
+    <li><strong>Roșu:</strong> culoare dominantă pentru accente, simboluri și butoane importante, inspirată de covorul roșu și glamour-ul evenimentului.</li>
+    <li><strong>Auriu:</strong> utilizată ca fundal pentru tab bar și elemente premium, evocând trofeul Oscar.</li>
+    <li><strong>Negru:</strong> folosit în special în dark mode pentru a oferi contrast și o estetică rafinată.</li>
+  </ul>
+
+  <h3>3.2 Moduri Light și Dark</h3>
+  <p>
+    Aplicația este complet adaptabilă în <strong>mod light</strong> și <strong>dark</strong>. Această funcționalitate îmbunătățește confortul vizual și accesibilitatea, oferind utilizatorilor posibilitatea de a alege modul potrivit pentru contextul lor (zi/noapte, interior/exterior).
+  </p>
+  <img src="darkLightMode.png" alt="Mod Light si Dark pentru Detalii Film">
+
+  <h3>3.3 Iconuri personalizate</h3>
+  <p>
+    Interfața OSC-AR utilizează pictograme <strong>personalizate</strong>, dezvoltate separat pentru:
+  </p>
+  <ul>
+    <li><strong>Aplicația mobilă:</strong> iconuri roșii simple, stilizate, rotunjite, pentru a menține o estetică unitară în navigare (home, search, news, profile, settings).</li>
+    <li><strong>Aplicația VR:</strong> pictograme diferite vizual, cu stil funcțional („send message”, „attach file”, „create survey”) gândite pentru interacțiune rapidă și intuitivă în mediu 3D.</li>
+  </ul>
+
+  <h3>3.4 Coerență vizuală și layout unificat</h3>
+  <p>
+    Toate paginile (homepage, căutare, profil, activitate, film) respectă o structură consistentă: bară de navigare fixă jos, carduri interactive pentru conținut, ierarhie vizuală clară, fonturi lizibile și spațiere coerentă. Această consistență reduce timpul de învățare al interfeței și ajută utilizatorul să se concentreze pe conținut, nu pe interacțiune.
+  </p>
+</section>
+
+    <section id="functionalitati">
+  <h2>Funcționalități principale</h2>
+
+  <p>
+    Aplicația OSC-AR este organizată pe secțiuni clare, fiecare având roluri bine definite în procesul de colaborare, evaluare și informare în cadrul juriului Oscar. Interacțiunea dintre aceste funcționalități creează o experiență completă, profesională și intuitivă.
+  </p>
+
+  <h3>4.1 Home</h3>
+  <p>
+    Pagina principală oferă un overview al conținutului de actualitate:
+  </p>
+  <ul>
+    <li><strong>Știri Oscar:</strong> articole despre evenimente recente, nominalizări, schimbări în juriu</li>
+    <li><strong>Filme populare:</strong> bazate pe ratingurile din aplicație</li>
+    <li><strong>Noutăți de la critici:</strong> bazate pe noile ratinguri din aplicație</li>
+    <li><strong>Populare printre critici:</strong> secțiuni cu filme populare printre critici</li>
+  </ul>
+
+  <h3>4.2 Search</h3>
+  <p>
+    Pagina de căutare permite utilizatorului să descopere filme în mod personalizat:
+  </p>
+  <ul>
+    <li>Căutare directă după titlu</li>
+    <li>Filtrare după <strong>dată de </strong>, <strong>gen</strong>, <strong>numele personajelor</strong>, <strong>numele filmului</strong></li>
+    <li>Istoric de căutări și acces rapid la titluri vizualizate recent</li>
+  </ul>
+
+  <h3>4.3 Committee</h3>
+  <p>
+    Secțiunea dedicată colaborării între membrii juriului:
+  </p>
+  <ul>
+    <li><strong>Lista membrilor:</strong> avatare și nume ale juraților</li>
+    <li><strong>Știri interne:</strong> legate de voturi, comentarii și decizii</li>
+    <li><strong>Chat public:</strong> conversație generală între membri</li>
+    <li><strong>Scoruri și recenzii:</strong> oferite de fiecare jurat pentru filmele vizionate</li>
+  </ul>
+
+  <h3>4.4 Activity</h3>
+  <p>
+    Secțiunea „Activitate” oferă transparență și context despre activitatea ta și a altor utilizatori:
+  </p>
+  <ul>
+    <li><strong>Filtrare pe 3 taburi:</strong> „Critici”, „Tu”, „Notificări primite”</li>
+    <li>Notificări privind voturi, comentarii, adăugări în watchlist</li>
+    <li>Feedback cronologic</li>
+  </ul>
+
+  <h3>4.5 User Page (Profil utilizator)</h3>
+  <p>
+    Pagina de profil permite personalizarea experienței:
+  </p>
+  <ul>
+    <li><strong>Favorite:</strong> filme salvate de utilizator</li>
+    <li><strong>Jurnal:</strong> listă de filme vizionate, notate</li>
+    <li><strong>Statistici:</strong> despre activitatea totală</li>
+    <li><strong>Recenzii:</strong> lista recenziilor oferite și ratingurile personale</li>
+  </ul>
+
+  <h3>4.6 Movie Details</h3>
+  <p>
+    Pagină individuală pentru fiecare film nominalizat:
+  </p>
+  <ul>
+    <li><strong>Trailer & descriere generală</strong></li>
+    <li><strong>Distribuție:</strong> regizor, actori, genuri</li>
+    <li><strong>Rating general:</strong> medie vizualizată în bar chart</li>
+    <li><strong>Rating propriu:</strong> oferit de utilizator</li>
+    <li><strong>Recenzii ale altor critici</strong></li>
+  </ul>
+</section>
+
+    <section id="functionalitati-mr">
+  <h2>Funcționalități VR (Virtual Reality)</h2>
+
+  <p>
+    Aplicația OSC-AR include o componentă de Virtual Reality (VR) inovatoare, destinată criticilor de film care vizionează filmele nominalizate în format imersiv. Folosind un headset VR, jurații pot interacționa cu conținutul în timp real, fără a întrerupe vizionarea, ceea ce oferă o experiență unică de evaluare profesională.
+  </p>
+
+  <h3>5.1 Recunoaștere facială a actorilor</h3>
+  <p>
+    Atunci când un actor apare pe ecran, sistemul activează automat o fereastră laterală cu informații despre acesta: nume, filmografie, rol, și un procent de încredere. Această funcție ajută jurații să identifice rapid actorii și să acceseze date relevante.
+  </p>
+  <h3>5.2 Trivia și detalii despre scenă</h3>
+
+  <p>
+    Utilizatorii pot accesa informații interesante despre scena curentă: locație, context istoric, inspirație, simbolistică. Acestea apar într-un overlay lateral, fără a distrage complet atenția de la film.
+  </p>
+
+  <h3>5.3 Timestamp-based rating</h3>
+  <p>
+    Jurații pot evalua scene specifice exact în momentul în care apar. Folosind un sistem de „timestamp”, notarea unei scene este înregistrată cu secundă exactă, oferind feedback detaliat despre ritm, interpretare sau regie.
+  </p>
+
+  <h3>5.4 Subtitrări și gesturi de comandă</h3>
+  <p>
+    Utilizatorii pot activa subtitrări vizuale direct din headset și pot naviga prin meniuri sau opțiuni prin gesturi simple (mâini recunoscute în sistem). Astfel, se menține interacțiunea hands-free și fluidă.
+  </p>
+
+  <h3>5.5 Chat live între membri</h3>
+  <p>
+    În partea stângă a ecranului, jurații pot discuta în timp real cu alți membri ai comitetului. Chatul funcționează ca un spațiu de dezbatere sincronă: se pot trimite mesaje, reacții sau întrebări fără a opri proiecția.
+  </p>
+</section>
+
+
+    <section id="design-prototipuri">
+  <h2>Design vizual & prototipuri</h2>
+
+  <p>
+    Procesul de design al aplicației OSC-AR a început cu o serie de <strong>sketchuri de mână</strong>, menite să definească rapid structura interfeței și principalele fluxuri de utilizator. Aceste schițe au permis echipei să experimenteze rapid idei și să valideze direcția generală de interacțiune.
+  </p>
+
+  <p>
+    Ulterior, interfețele au fost transformate în <strong>mockup-uri high-fidelity</strong> în Figma. Aici s-au definit:
+    <ul>
+      <li>paleta cromatică (roșu, negru, auriu),</li>
+      <li>fonturi lizibile,</li>
+      <li>iconuri personalizate,</li>
+      <li>și comportamente pentru modurile <strong>light</strong> și <strong>dark</strong>.</li>
+    </ul>
+  </p>
+
+  <p>
+    Designul final este coerent vizual în toate ecranele aplicației și asigură o experiență unificată, indiferent de platformă (mobilă sau VR).
+  </p>
+
+  <img src="mockups.jpg" alt="Evoluția de la sketchuri la designul final în Figma">
+</section>
+
+<section id="references">
+  <h2>References</h2>
+  <ol>
+    <li>
+      <i> ChatGPT</i> - logo OSC-AR
+    </li>
+    <li>
+      <i> ChatGPT</i> - generare imagineVR
+    </li>
+    <li>
+      <i> ChatGPT</i> - Inspiratie pentru tehnici de research
+    </li>
+    <li>
+       <i> Plugins Figma</i> - Open Iconic Icon Set, Icon8
+    </li>
+    
+  </ol>
+</section>
+
+
+</body>
+
+</html>
