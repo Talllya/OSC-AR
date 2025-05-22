@@ -30,7 +30,7 @@ Project Description: You are a movie critic chosen to watch and review Oscar nom
   https://www.figma.com/design/GaCVV2e2B0AY2L0ofey82h/OSC-AR?node-id=0-1&t=n4cf6LAcTqbPapYS-1
 
 - Link video MR/VR:
-  https://drive.google.com/file/d/1brfz6Z0xxfdPm-64bBRlScF767VxDEZk/view?usp=sharing
+ [Google Drive](https://drive.google.com/drive/folders/1vXBpDXbs22ZDzCci91h_rA8dLQ2m4B_A?usp=sharing)
 
 - Link video Mobile:
   https://drive.google.com/file/d/1Uncd5ATpWGXHoSuCtRiglp_TvD_3iQda/view?usp=sharing
